@@ -38,7 +38,7 @@ body {
 }
 
 .container .box:hover {
-  background: #466e5b;
+  background: #75a18d;
   color: rgb(108, 108, 108);
 }
 
@@ -47,11 +47,11 @@ body {
   margin: 0 8px;
   /* margin-top: 25px; */
   margin-top: 10px;
-  padding: 5px;
+  padding: 10px;
   font-weight: bold;
   cursor: pointer;
   font-size: 15px;
-  background-color: lightcoral;
+  background-color:darksalmon;
 }
 
 .win {
