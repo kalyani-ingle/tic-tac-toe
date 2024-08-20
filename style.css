@@ -39,7 +39,7 @@ body {
 
 .container .box:hover {
   background: #75a18d;
-  color: rgb(108, 108, 108);
+  color: rgb(255, 255, 255);
 }
 
 .btn {
