@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+html {
+  height: 100%;
+  width: 100%;
+  text-align: center;
+}
+
+body {
+  background-color:#75b798
+}
+
+.container {
+  width: 330px;
+  overflow: hidden;
+  margin: 80px auto 0 auto;
+}
+
+.container span {
+  display: block;
+  text-align: center;
+  font-family: sans-serif;
+  font-size: 30px;
+  margin-bottom: 40px;
+}
+
+.container .box {
+  float: left;
+  width: 100px;
+  height: 100px;
+  border: 2px solid white;
+  border-radius: 15px;
+  transition: all .25s ease-in-out;
+  font-size: 85px;
+  text-align: center;
+  line-height: 100px;
+  cursor: pointer;
+}
+
+.container .box:hover {
+  background: #466e5b;
+  color: rgb(108, 108, 108);
+}
+
+.btn {
+  width: 200px;
+  margin: 0 8px;
+  /* margin-top: 25px; */
+  margin-top: 10px;
+  padding: 5px;
+  font-weight: bold;
+  cursor: pointer;
+  font-size: 15px;
+  background-color: lightcoral;
+}
+
+.win {
+  background: #48ceff;
+  color: rgb(0, 94, 255);
+}
+
+#title {
+  font-family: "Montserrat", sans-serif;
+  /* margin-top: 20vh; */
+  color: whitesmoke;
+  text-shadow: 1px 1px black;
+  text-align: center;
+}
+
+#button-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+
+@media (min-width:320px) and (max-width:480px) {
+
+  #title {
+    margin-top: 0vh;
+  }
+
+  h2 {
+    font-size: small;
+  }
+
+  .btn {
+    margin-top: 10px;
+  }
+
+  #pickMark,
+  #reset {
+    font-size: 12px;
+    margin-bottom: 4px;
+  }
+}
