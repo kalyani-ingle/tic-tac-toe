@@ -1,1 +1,20 @@
-{"Homepage":"https://kalyani-ingle.github.io/tic-tac-toe/","name":"tic-tac-toe","version":"1.0.0","description":"","main":"script.js","scripts":{"test":"echo \"Error: no test specified\" && exit 1","dev":"nodemon script.js"},"author":"Kalyani Ingle","license":"ISC","dependencies":{"bootstrap":"^5.3.3","nodemon":"^3.1.0"},"devDependencies":{"gh-pages":"^6.1.1"}}
+{
+    "Homepage": "https://kalyani-ingle.github.io/tic-tac-toe/",
+    "name": "tic-tac-toe",
+    "version": "1.0.0",
+    "description": "",
+    "main": "script.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "dev": "nodemon script.js"
+    },
+    "author": "Kalyani Ingle",
+    "license": "ISC",
+    "dependencies": {
+        "bootstrap": "^5.3.3",
+        "nodemon": "^3.1.0"
+    },
+    "devDependencies": {
+        "gh-pages": "^6.1.1"
+    }
+}
